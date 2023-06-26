@@ -65,7 +65,10 @@
 
         //entry point (executed when DOM is loaded)
         (async function () {
-            init();
+            init(
+                console.log("Form init()"),
+                console.log("http://13.127.235.201:8082/cities")
+            );
         })();
     </script>
 </body>
